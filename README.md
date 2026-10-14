@@ -1,17 +1,17 @@
-# PAPUA-SSHIELD - Papua Secure Shell Shield
+# PAPUA-SSHIELD  Papua Secure Shell Shield
 
 
 ## 1. Deskripsi Tools
 
-PAPUA-SSHIELD adalah sebuah toolkit otomatisasi berbasis Bash Script yang dirancang untuk mengelola dan mengamankan akses SSH menggunakan metode Public Key Authentication.
+PAPUA SSHIELD adalah sebuah toolkit otomatisasi berbasis Bash Script yang dirancang untuk mengelola dan mengamankan akses SSH menggunakan metode Public Key Authentication.
 
 Dalam administrasi Linux, untuk menghubungkan satu laptop ke laptop lain tanpa password, administrator harus melakukan beberapa langkah manual yaitu membuat SSH Key dengan perintah ssh-keygen, mengatur permission folder .ssh menjadi 700 dan private key menjadi 600, kemudian mendistribusikan public key ke laptop tujuan menggunakan ssh-copy-id dengan format user@IP.
 
 Proses manual tersebut sering menimbulkan kesalahan seperti lupa mengatur permission sehingga muncul error UNPROTECTED PRIVATE KEY FILE, salah ketik IP tujuan, dan tidak ada log yang jelas sebagai bukti.
 
-PAPUA-SSHIELD hadir untuk menyelesaikan masalah tersebut. Semua proses manual diubah menjadi sistem menu interaktif. User hanya perlu memilih angka menu dan memasukkan nama user serta IP secara manual. Tools ini akan otomatis menjalankan perintah Linux yang sesuai, melakukan hardening permission, dan menampilkan log bukti keberhasilan.
+PAPUA SSHIELD hadir untuk menyelesaikan masalah tersebut. Semua proses manual diubah menjadi sistem menu interaktif. User hanya perlu memilih angka menu dan memasukkan nama user serta IP secara manual. Tools ini akan otomatis menjalankan perintah Linux yang sesuai, melakukan hardening permission, dan menampilkan log bukti keberhasilan.
 
-Nama PAPUA-SSHIELD memiliki arti:
+Nama PAPUA SSHIELD memiliki arti:
 PAPUA adalah identitas pembuat yaitu Papua Cyber Community.
 SSH adalah Secure Shell yaitu protokol yang diamankan.
 SHIELD adalah perisai yaitu fungsi hardening dan lockdown permission.
